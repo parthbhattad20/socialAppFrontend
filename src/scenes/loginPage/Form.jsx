@@ -220,7 +220,7 @@ const Form = () => {
               sx={{ gridColumn: "span 4" }}
             />
             <TextField
-              label="Password"
+              label="Password (less than 5 characters)"
               type="password"
               onBlur={handleBlur}
               onChange={handleChange}
