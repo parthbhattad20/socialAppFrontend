@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://sba-ba.onrender.com/register",
+      "https://sba-ba.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
