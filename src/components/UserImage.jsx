@@ -18,7 +18,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://social-app-backend-gilt.vercel.app/assets/${image}`}
+        src={`https://sba-ba.onrender.com/assets/${image}`}
       />
     </Box>
   );

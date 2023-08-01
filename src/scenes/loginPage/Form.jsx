@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://social-app-backend-gilt.vercel.app/register",
+      "https://sba-ba.onrender.com/register",
       {
         method: "POST",
         body: formData,
