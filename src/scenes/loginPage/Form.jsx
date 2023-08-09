@@ -103,6 +103,8 @@ const Form = () => {
   };
 
   return (
+
+  
     <Formik
       onSubmit={handleFormSubmit}
       initialValues={isLogin ? initialValuesLogin : initialValuesRegister}
@@ -210,7 +212,7 @@ const Form = () => {
             )}
 
             <TextField
-              label="Email"
+              label="Email(use 123@gmail.com for testing)"
               onBlur={handleBlur}
               onChange={handleChange}
               value={values.email}
@@ -220,7 +222,7 @@ const Form = () => {
               sx={{ gridColumn: "span 4" }}
             />
             <TextField
-              label="Password (less than 5 characters)"
+              label="Password (use 123 for testing w.r.t. email)"
               type="password"
               onBlur={handleBlur}
               onChange={handleChange}
